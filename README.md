@@ -99,38 +99,49 @@ mate-ml-image-classifier/
 ```bash
 git clone https://github.com/YOUR_USERNAME/mate-ml-image-classifier.git
 cd mate-ml-image-classifier
-2. Create virtual environment
+```
+
+### 2. Create virtual environment
+
+```bash
 python -m venv venv
 source venv/bin/activate     # Mac/Linux
 venv\Scripts\activate        # Windows
-3. Install dependencies
+```
+
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
-4. Run the app
+```
+
+### 4. Run the app
+
+```bash
 python app/main.py
-5. Open in browser
-http://127.0.0.1:5000
-✨ Features
-Upload image via web interface
+```
 
-Real-time prediction
+### 5. Open in browser
 
-Confidence score display
+Open `http://127.0.0.1:5000` in your browser.
 
-Clean UI
+## ✨ Features
 
-Separated ML logic from frontend
+- Upload image via web interface
+- Real-time prediction
+- Confidence score display
+- Clean UI
+- Separated ML logic from frontend
 
-🔧 Future improvements
-Multi-class classification
+## 🔧 Future improvements
 
-Drag & drop upload
+- Multi-class classification
+- Drag & drop upload
+- Cloud deployment
+- Model optimization
+- REST API endpoint
 
-Cloud deployment
+## 👤 Author
 
-Model optimization
-
-REST API endpoint
-
-👤 Author
-Roman Azhniuk
-Mate Academy student
+- **Name:** Roman Azhniuk  
+- **Role:** Mate Academy student
