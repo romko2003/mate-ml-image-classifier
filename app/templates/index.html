@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Cats vs Dogs - Upload</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Cats vs Dogs</h1>
+    <p class="muted">Upload an image and get a prediction.</p>
+
+    <form class="form" action="/predict" method="post" enctype="multipart/form-data">
+      <input class="file" type="file" name="file" accept="image/*" required>
+      <button class="btn" type="submit">Predict</button>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,18 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# dataset (do not commit)
+data/
+
+# models (usually large)
+model/model.keras
+model/*.h5
+model/*.keras
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
